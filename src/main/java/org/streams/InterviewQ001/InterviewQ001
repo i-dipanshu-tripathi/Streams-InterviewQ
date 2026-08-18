@@ -1,0 +1,39 @@
+✅ 1. Find Even Numbers
+
+🎗️ 1.1 Problem Statement
+You are given a List<Integer> containing positive and negative integers.
+Using Java Streams, find all the even numbers from the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Preserve the original encounter order.
+🔴 Return the result as a List<Integer>.
+
+🎗️ 1.2 Input / Output
+
+👉 Input : [10, 15, 20, 25, 30, 33, 40]
+👉 Expected Output : [10, 20, 30, 40]
+
+🎗️ 1.3 Discussion of Your Solution
+
+List<Integer> collect = list.stream()
+                            .filter(x->x%2==0)
+                            .collect(Collectors.toList());
+
+👉 How it works
+🔴 list.stream() : Creates a sequential Stream from the list.
+🔴 filter(x -> x % 2 == 0) : Keeps only elements divisible by 2.
+🔴 collect(Collectors.toList()) : Materializes the filtered elements into a List.
+🔴 Your output: [10, 20, 30, 40] is correct.
+
+🎗️ 1.4 Time And Space Complexity
+🔴 Time: O(N) : Every element potentially needs to be examined once.
+🔴 Space: O(K) : Where K is the number of even elements that pass the filter.
+
+Worst case: K = N so auxiliary/output storage can be O(N).
+
+One important interview distinction:
+
+The Stream pipeline itself doesn't require O(N) extra space merely because it is a Stream.
+The resulting collected list requires space proportional to the number of elements retained.
