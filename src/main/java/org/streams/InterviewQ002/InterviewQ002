@@ -1,0 +1,69 @@
+🚀 Q2 — Find Numbers Greater Than a Given Value
+🎗️ 2.1 Problem Statement
+
+You are given a List<Integer> containing positive and negative integers and an integer threshold.
+Using Java Streams, find all numbers that are strictly greater than the given threshold.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Preserve the original encounter order.
+🔴 Return the result as a List<Integer>.
+🔴 Include only numbers strictly greater than the threshold.
+
+🎗️ 2.2 Input / Output
+
+👉 Input
+numbers = [10, 25, 5, 40, 15, 30, 8]
+threshold = 20
+
+👉 Expected Output
+[25, 40, 30]
+
+🎗️ 2.4 Discussion of Your Solution
+👉 Your solution:
+
+List<Integer> list = integerList.stream()
+        .filter(x -> x > threshold)
+        .toList();
+
+✅ Correctness
+Your solution is correct.
+For: [10, 25, 5, 40, 15, 30, 8]
+threshold = 20
+
+you get: [25, 40, 30]
+
+👉 How it works
+
+🔴 integerList.stream()
+Creates a sequential Stream from the original list.
+
+🔴 filter(x -> x > threshold)
+Keeps only elements strictly greater than threshold.
+
+🔴 .toList()
+Collects the filtered elements into a List.
+
+✅ Encounter Order
+
+Your solution preserves the encounter order because you're using a sequential Stream over an ordered List.
+
+Input: [10, 25, 5, 40, 15, 30, 8]
+Output: [25, 40, 30]
+
+The relative order of 25, 40, and 30 is preserved.
+
+🎗️ 2.5 Time And Space Complexity
+
+🔴 Time: O(N)
+
+Every element may need to be examined.
+N = number of elements
+So: O(N)
+
+🔴 Space: O(K)
+
+Where K is the number of elements greater than the threshold.
+Worst case: K = N
+Therefore worst-case space is: O(N)
