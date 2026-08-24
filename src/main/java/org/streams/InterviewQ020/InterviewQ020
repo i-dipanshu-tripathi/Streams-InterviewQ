@@ -1,0 +1,55 @@
+✅ Q20 — Find the First Non-Repeated Character in a String
+
+🎗️ 20.1 Problem Statement
+
+👉 You are given a String containing uppercase/lowercase letters and possibly repeated characters.
+👉 Using Java Streams, find the first character that appears only once in the String.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as an Optional<Character> or an appropriate nullable result.
+🔴 Preserve the original character encounter order.
+🔴 Correctly handle repeated characters.
+🔴 Correctly handle uppercase and lowercase characters as distinct characters.
+🔴 Correctly handle an empty String.
+🔴 Do not use traditional for/while loops.
+
+🎗️ 20.2 Input / Output
+
+👉 Input
+
+Use this exact String:
+String input = "swiss";
+
+👉 Expected Output w
+
+Because:
+
+s → appears 3 times
+w → appears 1 time ✅
+i → appears 1 time
+s → appears 3 times
+s → appears 3 times
+
+The first character appearing only once is: w
+
+Another Example
+
+String input = "aabbcdd";
+Expected: c
+
+🎗️ 20.3 Your Task
+
+Write the Java Stream solution.
+
+You can provide:
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 How you preserve encounter order
+🔴 How you handle an empty String
+🔴 How you handle a String where every character is repeated
+🔴 Time and space complexity, if you want to attempt those too.
+
+
+
