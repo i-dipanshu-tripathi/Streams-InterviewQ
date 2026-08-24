@@ -32,8 +32,8 @@ public class InterviewQ004Solution {
                               .getMax();
 
         int min3 = integerList.stream()
-                .collect(Collectors.summarizingInt(Integer::intValue))
-                .getMin();
+                              .collect(Collectors.summarizingInt(Integer::intValue))
+                              .getMin();
 
         System.out.println("Min and Max using summaringInt method : "+min3+" "+max3);
     }
