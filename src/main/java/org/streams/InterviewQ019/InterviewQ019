@@ -1,0 +1,59 @@
+✅ Q19 — Find the Numbers That Are Present in the First List but Not in the Second List
+
+🎗️ 19.1 Problem Statement
+
+You are given two List<Integer> objects containing positive, negative, and zero values.
+Using Java Streams, find all numbers that are present in the first list but not present in the second list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<Integer>.
+🔴 Preserve the encounter order of the first list.
+🔴 Remove duplicate values from the result.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle zero.
+🔴 Correctly handle empty lists.
+🔴 Do not modify either original list.
+
+🎗️ 19.2 Input / Output
+
+👉 Input Lists
+
+Use these exact lists in your Java program:
+
+List<Integer> list1 = Arrays.asList(
+        10, 25, -5, 40, 15, 30, 8, 25, 0, 15
+);
+
+List<Integer> list2 = Arrays.asList(
+        5, 25, 40, -5, 50, 8, 100
+);
+
+👉 Expected Output : [10, 15, 30, 0]
+Because:
+
+10 → present in list1, NOT in list2 ✅
+25 → present in both ❌
+-5 → present in both ❌
+40 → present in both ❌
+15 → present in list1, NOT in list2 ✅
+30 → present in list1, NOT in list2 ✅
+8  → present in both ❌
+25 → duplicate and present in list2 ❌
+0  → present in list1, NOT in list2 ✅
+15 → duplicate → should appear only once
+
+Therefore: [10, 15, 30, 0]
+
+🎗️ 19.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 How you remove duplicates
+🔴 How you preserve the encounter order of list1
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too.
