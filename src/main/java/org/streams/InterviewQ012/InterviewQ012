@@ -1,0 +1,42 @@
+✅ Q12 — Find All Numbers That Appear Only Once
+
+🎗️ 12.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, find all numbers that appear exactly once in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<Integer>.
+🔴 Preserve the original encounter order.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Do not modify the original list.
+
+🎗️ 12.2 Input / Output
+
+👉 Input : List<Integer> numberList = List.of(10, 25, 10, -5, 40, 25, 15, -5, 30, 25);
+👉 Expected Output : [40, 15, 30]
+
+Because:
+
+10 → appears 2 times ❌
+25 → appears 3 times ❌
+-5 → appears 2 times ❌
+40 → appears 1 time ✅
+15 → appears 1 time ✅
+30 → appears 1 time ✅
+
+🎗️ 12.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 How you preserve the original encounter order
+🔴 Time and space complexity, if you want to attempt those too
