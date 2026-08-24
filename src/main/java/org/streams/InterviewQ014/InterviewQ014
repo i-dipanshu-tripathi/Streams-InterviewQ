@@ -1,0 +1,49 @@
+✅ Q14 — Find the First Number That Appears More Than Once
+
+🎗️ 14.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, find the first number that appears more than once in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as an Integer.
+🔴 Preserve the original encounter order.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Return an appropriate result when no duplicate number exists.
+
+🎗️ 14.2 Input / Output
+
+👉 Input List
+
+Use this exact list in your Java program:
+List<Integer> numbersList = Arrays.asList(10, 25, 10, -5, 40, 25, 15, -5, 30, 25);
+
+👉 Expected Output : 10
+
+Because:
+
+10  → appears 2 times ✅ ← First duplicate
+25  → appears 3 times
+-5  → appears 2 times
+40  → appears 1 time
+15  → appears 1 time
+30  → appears 1 time
+
+The first number whose total occurrence is greater than one is: 10
+
+🎗️ 14.3 Your Task
+
+Write the Java Stream solution.
+
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 Your thoughts about empty-list behavior
+🔴 How you preserve encounter order
+🔴 Time and space complexity, if you want to attempt those too.
