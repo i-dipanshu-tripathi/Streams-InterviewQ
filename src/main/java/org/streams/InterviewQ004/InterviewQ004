@@ -1,0 +1,42 @@
+🚀 Q4 — Find Minimum and Maximum Numbers
+
+🎗️ 4.1 Problem Statement
+
+You are given a List<Integer> containing positive and negative integers.
+
+Using Java Streams, find:
+
+The minimum number
+The maximum number
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Correctly handle positive and negative numbers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle an empty list.
+🔴 Return an appropriate result when the list is empty.
+🔴 Do not modify the original list.
+
+🎗️ 4.2 Input / Output
+
+👉 Input : numbers = [10, 25, -5, 40, 15, 30, 8, 25]
+👉 Expected Output : Minimum = -5 Maximum = 40
+
+Because:
+
+Minimum:
+-5 is the smallest number.
+
+Maximum:
+40 is the largest number.
+
+🎗️ 4.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary Stream approach.
+🔴 Any alternative Stream-based approaches only.
+🔴 Empty-list handling.
+🔴 Time and space complexity, if you want to attempt them.
