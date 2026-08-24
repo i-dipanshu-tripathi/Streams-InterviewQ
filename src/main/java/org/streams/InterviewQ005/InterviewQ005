@@ -1,0 +1,29 @@
+✅ Q5 — Find Average of Numbers
+
+🎗️ 5.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, calculate the average of all numbers.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the average correctly as a decimal value.
+🔴 Correctly handle positive and negative numbers.
+🔴 Correctly handle an empty list.
+🔴 Avoid accidentally performing integer division.
+
+🎗️ 5.2 Input / Output
+
+👉 Input List<Integer> v = List.of(10, 20, 30, 40, 50);
+👉 Expected Output : 30.0
+
+🎗️ 5.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary Stream approach.
+🔴 Any alternative Stream-based approaches only.
+🔴 Empty-list handling.
+🔴 Time and space complexity, if you want to attempt them.
