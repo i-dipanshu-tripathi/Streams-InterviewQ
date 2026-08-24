@@ -1,0 +1,37 @@
+✅ Q9 — Find Numbers Greater Than the Average
+
+🎗️ 9.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, find all numbers that are greater than the average of the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<Integer>.
+🔴 Preserve the original encounter order.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Do not modify the original list.
+
+🎗️ 9.2 Input / Output
+
+👉 Input : List<Integer> list = Arrays.asList(10, 20, 30, 40, 50);
+👉 Expected Output : [40, 50]
+
+Because:
+
+Average = (10 + 20 + 30 + 40 + 50) / 5 = 30.0
+Numbers greater than 30.0: 40 50
+
+🎗️ 9.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too
