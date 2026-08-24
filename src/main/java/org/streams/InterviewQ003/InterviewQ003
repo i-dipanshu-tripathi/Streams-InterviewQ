@@ -1,0 +1,32 @@
+✅ Q3 — Find the Sum of All Numbers
+
+🎗️ 3.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, calculate the sum of all numbers in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as an int.
+🔴 Correctly handle positive and negative numbers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Do not modify the original list.
+
+🎗️ 3.2 Input / Output
+
+👉 Input List<Integer> numbers = List.of(10, 25, -5, 40, 15, 30, 8, 25);
+👉 Expected Output : 148
+
+Because: 10 + 25 + (-5) + 40 + 15 + 30 + 8 + 25 = 148
+
+🎗️ 7.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too
