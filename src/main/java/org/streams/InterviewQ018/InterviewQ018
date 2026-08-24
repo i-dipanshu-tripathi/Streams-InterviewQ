@@ -1,0 +1,65 @@
+✅ Q18 — Find the Common Elements Between Two Lists
+
+🎗️ 18.1 Problem Statement
+
+You are given two List<Integer> objects containing positive, negative, and zero values.
+Using Java Streams, find all numbers that are present in both lists.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<Integer>.
+🔴 Preserve the encounter order of the first list.
+🔴 Remove duplicate values from the result.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle zero.
+🔴 Correctly handle empty lists.
+🔴 Do not modify either original list.
+
+🎗️ 18.2 Input / Output
+
+👉 Input Lists
+
+Use these exact lists in your Java program:
+
+List<Integer> list1 = Arrays.asList(
+        10, 25, -5, 40, 15, 30, 8, 25, 0
+);
+
+List<Integer> list2 = Arrays.asList(
+        5, 25, 40, -5, 50, 8, 25, 0, 100
+);
+👉 Expected Output : [25, -5, 40, 8, 0]
+
+Because the common values are:
+
+25  → present in both
+-5  → present in both
+40  → present in both
+8   → present in both
+0   → present in both
+
+Notice that 25 appears multiple times in list1 and list2, but the output should contain it only once.
+The encounter order comes from list1:
+
+list1:
+
+10, 25, -5, 40, 15, 30, 8, 25, 0
+     ↓   ↓   ↓          ↓      ↓
+    25  -5  40         8      0
+
+Therefore:
+
+[25, -5, 40, 8, 0]
+
+🎗️ 18.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 How you remove duplicates
+🔴 How you preserve the first list's encounter order
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too.
