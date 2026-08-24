@@ -1,0 +1,34 @@
+✅ Q8 — Find the Average of Numbers
+
+🎗️ 8.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, calculate the average of all numbers in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a double.
+🔴 Correctly handle positive and negative numbers.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Do not modify the original list.
+
+🎗️ 8.2 Input / Output
+
+👉 Input : numbers = [10, 20, 30, 40, 50]
+👉 Expected Output : 30.0
+
+Because: (10 + 20 + 30 + 40 + 50) / 5 = 30.0
+
+🎗️ 8.3 Your Task
+
+Write the Java Stream solution.
+
+You can provide:
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too
+
