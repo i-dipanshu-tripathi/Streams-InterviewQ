@@ -1,0 +1,31 @@
+✅ Q7 — Find Duplicate Elements
+
+🎗️ 7.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and duplicate integers.
+Using Java Streams, find all the elements that appear more than once in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<Integer>.
+🔴 Preserve the original encounter order of the duplicate values.
+🔴 Each duplicate value should appear only once in the result.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle an empty list.
+🔴 Correctly handle a list containing no duplicates.
+
+🎗️ 7.2 Input / Output
+
+👉 Input : List<Integer> input = List.of(10, 25, 10, -5, 40, 25, 15, -5, 30, 25);
+👉 Expected Output : [10, 25, -5]
+
+🎗️ 7.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 Time and space complexity, if you want to attempt those too
