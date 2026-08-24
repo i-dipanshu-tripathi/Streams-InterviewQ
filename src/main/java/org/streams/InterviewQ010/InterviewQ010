@@ -1,0 +1,46 @@
+✅ Q10 — Find the Second Highest Number
+
+🎗️ 10.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, zero, and duplicate integers.
+Using Java Streams, find the second highest distinct number in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as an Integer.
+🔴 Ignore duplicate values when determining the second highest number.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle zero.
+🔴 Correctly handle an empty list.
+🔴 Correctly handle a list containing fewer than two distinct values.
+🔴 Do not modify the original list.
+
+🎗️ 10.2 Input / Output
+
+👉 Input : List<Integer> list = List.of(10, 25, 5, 40, 15, 40, 30, 25);
+👉 Expected Output : 30
+
+Because the distinct values in descending order are:
+
+40
+30
+25
+15
+10
+5
+
+Therefore:
+
+Second Highest = 30
+
+🎗️ 10.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches you know
+🔴 Your thoughts about empty-list behavior
+🔴 How you handle fewer than two distinct values
+🔴 Time and space complexity, if you want to attempt those too
