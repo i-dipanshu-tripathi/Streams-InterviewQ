@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 public class InterviewQ015Solution {
     public static void main(String[] args) {
+
         List<Integer> numberList = List.of(10, 25, 10, -5, 40, 25, 15, -5, 30, 25);
 
         Map<Boolean, List<Integer>> evenOddMap1 = numberList.stream()
