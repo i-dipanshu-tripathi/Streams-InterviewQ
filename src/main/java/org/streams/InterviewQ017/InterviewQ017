@@ -1,0 +1,55 @@
+✅ Q17 — Find All Strings That Have the Same Length as the Longest String
+
+🎗️ 17.1 Problem Statement
+
+You are given a List<String> containing strings of different lengths.
+Using Java Streams, find all strings whose length is equal to the maximum string length.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as a List<String>.
+🔴 Preserve the original encounter order.
+🔴 Correctly handle duplicate strings.
+🔴 Correctly handle empty strings.
+🔴 Correctly handle an empty list.
+🔴 Do not sort the list unnecessarily.
+
+🎗️ 17.2 Input / Output
+
+👉 Input List
+
+Use this exact list in your Java program:
+List<String> words = Arrays.asList("Java","Spring","Microservices","Docker","Kubernetes","Architecture","API");
+
+👉 Expected Output : [Microservices, Architecture]
+
+Because:
+
+Java           → 4
+Spring         → 6
+Microservice  → 12  ✅
+Docker         → 6
+Kubernetes     → 10
+Architecture   → 12 ✅
+API            → 3
+
+⚠️ Correction: With the above input, only Microservices has the maximum length.
+So the actual expected output is : [Microservices,Architecture]
+
+To properly practice the "all maximum-length elements" requirement, use this input instead:
+List<String> words = Arrays.asList("Java","Spring","Microservices","Docker","Kubernetes","Architecture","API");
+
+👉 Expected Output : [Microservices, Architecture] Both have length 12.
+
+🎗️ 17.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 How you handle an empty list
+🔴 How you preserve encounter order
+🔴 How you handle duplicate maximum-length strings
+🔴 Time and space complexity, if you want to attempt those too.
