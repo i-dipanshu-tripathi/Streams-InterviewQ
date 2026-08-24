@@ -1,0 +1,47 @@
+✅ Q16 — Find the Longest String in a List
+
+🎗️ 16.1 Problem Statement
+
+You are given a List<String> containing strings of different lengths.
+Using Java Streams, find the longest string in the list.
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Return the result as an Optional<String> or handle the empty list appropriately.
+🔴 Correctly handle strings with different lengths.
+🔴 Correctly handle duplicate strings.
+🔴 Correctly handle empty strings.
+🔴 Correctly handle an empty list.
+🔴 Do not modify the original list.
+
+🎗️ 16.2 Input / Output
+
+👉 Input List
+
+Use this exact list in your Java program:
+List<String> words = Arrays.asList("Java","Spring","Microservices","API","Docker","Kubernetes","AWS");
+
+👉 Expected Output
+Microservices
+
+Because:
+
+Java          → 4 characters
+Spring        → 6 characters
+Microservices  → 12 characters  ✅
+API           → 3 characters
+Docker        → 6 characters
+Kubernetes    → 10 characters
+AWS           → 3 characters
+
+🎗️ 16.3 Your Task
+
+Write the Java Stream solution.
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 How you handle an empty list
+🔴 How you handle multiple strings having the same maximum length
+🔴 Time and space complexity, if you want to attempt those too.
