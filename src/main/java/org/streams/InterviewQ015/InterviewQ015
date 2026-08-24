@@ -1,0 +1,44 @@
+✅ Q15 — Partition Numbers into Even and Odd
+
+🎗️ 15.1 Problem Statement
+
+You are given a List<Integer> containing positive, negative, and zero values.
+Using Java Streams, divide the numbers into two groups:
+
+👉 Even numbers
+👉 Odd numbers
+
+Your solution should:
+
+👉 Use the Stream API.
+🔴 Use a Stream-based partitioning approach.
+🔴 Preserve the original encounter order within each group.
+🔴 Correctly handle positive and negative integers.
+🔴 Correctly handle zero.
+🔴 Correctly handle duplicate values.
+🔴 Correctly handle an empty list.
+🔴 Return the result in a suitable Map structure.
+
+🎗️ 15.2 Input / Output
+
+👉 Input List
+
+Use this exact list in your Java program:
+
+List<Integer> numberList = Arrays.asList(10, 15, 20, -5, 30, -8, 7, 0, 25, 12);
+👉 Expected Output
+
+🔴 Even = [10, 20, 30, -8, 0, 12]
+🔴 Odd = [15, -5, 7, 25]
+
+🎗️ 15.3 Your Task
+
+Write the Java Stream solution.
+
+You can provide:
+
+🔴 Your primary approach
+🔴 Any alternative approaches — Streams only
+🔴 Your thoughts about empty-list behavior
+🔴 How you preserve encounter order
+🔴 Time and space complexity, if you want to attempt those too.
